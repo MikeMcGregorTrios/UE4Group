@@ -1,4 +1,4 @@
-﻿Log file open, 09/17/18 21:15:59
+﻿Log file open, 09/17/18 23:45:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ASH_Game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.291822
+LogStats: Stats thread started at 0.290811
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.120s to configure plugins.
+LogStreaming: Display: Took  0.136s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -150,185 +150,522 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.09.18-01.15.59:908][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.18-01.15.59:908][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.09.18-01.15.59:922][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.09.18-01.15.59:922][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.09.18-01.15.59:922][  0]LogInit: Going up to parent DeviceProfile []
-[2018.09.18-01.15.59:922][  0]LogInit: Computer: DESKTOP-EKVR1F9
-[2018.09.18-01.15.59:922][  0]LogInit: User: DylanBruton
-[2018.09.18-01.15.59:922][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.09.18-01.15.59:922][  0]LogInit: High frequency timer resolution =2.742186 MHz
-[2018.09.18-01.15.59:923][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.09.18-01.15.59:923][  0]LogMemory: Platform Memory Stats for Windows
-[2018.09.18-01.15.59:923][  0]LogMemory: Process Physical Memory: 100.25 MB used, 100.25 MB peak
-[2018.09.18-01.15.59:923][  0]LogMemory: Process Virtual Memory: 95.16 MB used, 95.16 MB peak
-[2018.09.18-01.15.59:923][  0]LogMemory: Physical Memory: 9028.56 MB used,  7228.47 MB free, 16257.03 MB total
-[2018.09.18-01.15.59:923][  0]LogMemory: Virtual Memory: 4648.98 MB used,  7228.47 MB free, 134217728.00 MB total
-[2018.09.18-01.16.00:229][  0]LogInit: Using OS detected language (en-US).
-[2018.09.18-01.16.00:229][  0]LogInit: Using OS detected locale (en-US).
-[2018.09.18-01.16.00:230][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.09.18-01.16.00:634][  0]LogStreaming: Display: Took  0.405s to InitEngineTextLocalization.
-[2018.09.18-01.16.00:634][  0]LogInit: Setting process to per monitor DPI aware
-[2018.09.18-01.16.00:660][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.09.18-01.16.00:660][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.09.18-01.16.00:945][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.18-01.16.00:945][  0]LogD3D11RHI: D3D11 adapters:
-[2018.09.18-01.16.00:991][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.09.18-01.16.00:991][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.09.18-01.16.01:014][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.09.18-01.16.01:014][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2018.09.18-01.16.01:016][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.09.18-01.16.01:016][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.09.18-01.16.01:016][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.09.18-01.16.01:024][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.09.18-01.16.01:024][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
-[2018.09.18-01.16.01:024][  0]LogWindows: EnumDisplayDevices:
-[2018.09.18-01.16.01:025][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.09.18-01.16.01:025][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.18-01.16.01:025][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.18-01.16.01:026][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.09.18-01.16.01:026][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.18-01.16.01:026][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.18-01.16.01:026][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.09.18-01.16.01:026][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.09.18-01.16.01:026][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.09.18-01.16.01:026][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
-[2018.09.18-01.16.01:026][  0]LogD3D11RHI:      Driver Date: 3-7-2018
-[2018.09.18-01.16.01:026][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
-[2018.09.18-01.16.01:059][  0]LogD3D11RHI: Async texture creation enabled
-[2018.09.18-01.16.01:116][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.09.18-01.16.01:163][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../GameDev/_Projects/UE4Group/ASH_Game/Intermediate/Shaders/WorkingDirectory/17620/).
-[2018.09.18-01.16.01:163][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan Bruton/AppData/Local/Temp/UnrealShaderWorkingDir/079494854D82C56E2FC82C9CABB62D69/'.
-[2018.09.18-01.16.01:452][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.09.18-01.16.01:465][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.09.18-01.16.01:478][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.09.18-01.16.01:492][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.09.18-01.16.01:505][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.09.18-01.16.01:518][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.09.18-01.16.01:532][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.09.18-01.16.01:545][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.09.18-01.16.01:551][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:632][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.09.18-01.16.01:633][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.09.18-01.16.01:694][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.18-01.16.01:694][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.09.18-01.16.01:718][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.18-01.16.01:718][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.09.18-01.16.01:731][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.09.18-01.16.01:745][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.09.18-01.16.01:758][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.09.18-01.16.01:771][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.09.18-01.16.01:780][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.09.18-01.16.01:780][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.09.18-01.16.01:829][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.09.18-01.16.01:829][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.09.18-01.16.01:829][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.09.18-01.16.02:580][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.09.18-01.16.02:636][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.18-01.16.02:637][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.09.18-01.16.02:637][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/_Projects/UE4Group/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.09.18-01.16.02:637][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.09.18-01.16.02:637][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/_Projects/UE4Group/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.09.18-01.16.02:637][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.09.18-01.16.02:651][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.09.18-01.16.02:663][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.09.18-01.16.02:663][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.09.18-01.16.02:663][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.09.18-01.16.02:684][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.09.18-01.16.02:686][  0]LogSlate: Using FreeType 2.6.0
-[2018.09.18-01.16.02:686][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.09.18-01.16.02:772][  0]LogAssetRegistry: FAssetRegistry took 0.0267 seconds to start up
-[2018.09.18-01.16.03:112][  0]LogInit: Selected Device Profile: [Windows]
-[2018.09.18-01.16.03:165][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.09.18-01.16.03:168][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.09.18-01.16.03:168][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.09.18-01.16.03:169][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.09.18-01.16.03:169][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.09.18-01.16.03:272][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
-[2018.09.18-01.16.04:002][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.184394 seconds
-[2018.09.18-01.16.04:013][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.09.18-01.16.04:013][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.09.18-01.16.04:013][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.09.18-01.16.05:134][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.09.18-01.16.05:148][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.09.18-01.16.05:306][  0]SourceControl: Source control is disabled
-[2018.09.18-01.16.05:306][  0]SourceControl: Source control is disabled
-[2018.09.18-01.16.05:307][  0]SourceControl: Source control is disabled
-[2018.09.18-01.16.05:308][  0]SourceControl: Source control is disabled
-[2018.09.18-01.16.05:487][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.09.18-01.16.05:649][  0]LogOcInput: OculusInput pre-init called
-[2018.09.18-01.16.05:711][  0]LogEngine: Initializing Engine...
-[2018.09.18-01.16.05:712][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.09.18-01.16.05:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.18-01.16.05:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.18-01.16.05:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.18-01.16.05:713][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.18-01.16.05:950][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.09.18-01.16.05:962][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.09.18-01.16.06:062][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
-[2018.09.18-01.16.06:548][  0]LogInit: FAudioDevice initialized.
-[2018.09.18-01.16.06:549][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.09.18-01.16.07:049][  0]LogDerivedDataCache: Saved boot cache 0.50s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.09.18-01.16.07:084][  0]LogInit: Texture streaming: Enabled
-[2018.09.18-01.16.07:106][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.09.18-01.16.07:124][  0]LogInit: Transaction tracking system initialized
-[2018.09.18-01.16.07:143][  0]BlueprintLog: New page: Editor Load
-[2018.09.18-01.16.07:207][  0]LocalizationService: Localization service is disabled
-[2018.09.18-01.16.07:477][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.09.18-01.16.07:477][  0]LogCook: Display: Mobile HDR setting 1
-[2018.09.18-01.16.07:477][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.09.18-01.16.07:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.09.18-01.16.07:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.09.18-01.16.07:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.09.18-01.16.07:477][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.09.18-01.16.07:603][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Content/' took 0.02s
-[2018.09.18-01.16.07:603][  0]SourceControl: Source control is disabled
-[2018.09.18-01.16.07:603][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.09.18-01.16.07:604][  0]LogEditorServer: Warning: Can't find file '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Maps/TopDownExampleMap.umap'
-[2018.09.18-01.16.07:604][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.09.18-01.16.07:670][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.017ms to complete.
-[2018.09.18-01.16.07:670][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.067
-[2018.09.18-01.16.07:782][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-01.16.07:790][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-01.16.07:800][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-01.16.07:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.09.18-01.16.07:815][  0]LogCollectionManager: Loaded 0 collections in 0.001434 seconds
-[2018.09.18-01.16.07:860][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Saved/Collections/' took 0.01s
-[2018.09.18-01.16.07:860][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Content/Developers/DylanBruton/Collections/' took 0.01s
-[2018.09.18-01.16.07:860][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Content/Collections/' took 0.01s
-[2018.09.18-01.16.07:860][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.09.18-01.16.07:870][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2572 classes and 603 folders.
-[2018.09.18-01.16.07:876][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.09.18-01.16.07:953][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.09.18-01.16.07:957][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.09.18-01.16.07:971][  0]LogSlate: Took 0.000269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.09.18-01.16.07:973][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.09.18-01.16.07:980][  0]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.09.18-01.16.08:070][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 10 NumSamples 1 (Frame:1).
-[2018.09.18-01.16.08:225][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.09.18-01.16.08:225][  0]LogLoad: (Engine Initialization) Total time: 10.17 seconds
-[2018.09.18-01.16.08:225][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.09.18-01.16.08:244][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.09.18-01.16.08:263][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.09.18-01.16.08:304][  1]LogAssetRegistry: Asset discovery search completed in 5.5547 seconds
-[2018.09.18-01.16.08:306][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.09.18-01.16.08:306][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000084 seconds (updated 0 objects)
-[2018.09.18-01.16.32:212][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-03.45.59:343][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-03.45.59:343][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.18-03.45.59:360][  0]LogHAL: Display: Platform has ~ 16 GB [17046728704 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.18-03.45.59:360][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.18-03.45.59:360][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.18-03.45.59:360][  0]LogInit: Computer: DESKTOP-EKVR1F9
+[2018.09.18-03.45.59:360][  0]LogInit: User: DylanBruton
+[2018.09.18-03.45.59:360][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.09.18-03.45.59:360][  0]LogInit: High frequency timer resolution =2.742188 MHz
+[2018.09.18-03.45.59:361][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.09.18-03.45.59:361][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.18-03.45.59:361][  0]LogMemory: Process Physical Memory: 99.78 MB used, 99.78 MB peak
+[2018.09.18-03.45.59:361][  0]LogMemory: Process Virtual Memory: 90.96 MB used, 90.96 MB peak
+[2018.09.18-03.45.59:361][  0]LogMemory: Physical Memory: 7071.63 MB used,  9185.39 MB free, 16257.03 MB total
+[2018.09.18-03.45.59:361][  0]LogMemory: Virtual Memory: 4644.98 MB used,  9185.39 MB free, 134217728.00 MB total
+[2018.09.18-03.45.59:643][  0]LogInit: Using OS detected language (en-US).
+[2018.09.18-03.45.59:643][  0]LogInit: Using OS detected locale (en-US).
+[2018.09.18-03.45.59:643][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.09.18-03.46.00:032][  0]LogStreaming: Display: Took  0.389s to InitEngineTextLocalization.
+[2018.09.18-03.46.00:032][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.18-03.46.00:075][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.18-03.46.00:075][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.18-03.46.00:379][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-03.46.00:379][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.18-03.46.00:430][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.09.18-03.46.00:430][  0]LogD3D11RHI:       8089/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.18-03.46.00:453][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.09.18-03.46.00:453][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.18-03.46.00:454][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.18-03.46.00:454][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.18-03.46.00:454][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.18-03.46.00:462][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.18-03.46.00:462][  0]LogD3D11RHI:     GPU DeviceId: 0x1be1 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.18-03.46.00:462][  0]LogWindows: EnumDisplayDevices:
+[2018.09.18-03.46.00:462][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.09.18-03.46.00:462][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-03.46.00:462][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-03.46.00:462][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.09.18-03.46.00:463][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-03.46.00:463][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-03.46.00:463][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.09.18-03.46.00:463][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.09.18-03.46.00:463][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.09.18-03.46.00:463][  0]LogD3D11RHI:   Driver Version: 389.12 (internal:23.21.13.8912, unified:389.12)
+[2018.09.18-03.46.00:463][  0]LogD3D11RHI:      Driver Date: 3-7-2018
+[2018.09.18-03.46.00:463][  0]LogRHI: Texture pool is 5662 MB (70% of 8089 MB)
+[2018.09.18-03.46.00:494][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.18-03.46.00:548][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.09.18-03.46.00:595][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../GameDev/_Projects/UE4Group/ASH_Game/Intermediate/Shaders/WorkingDirectory/13556/).
+[2018.09.18-03.46.00:595][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dylan Bruton/AppData/Local/Temp/UnrealShaderWorkingDir/BF6DB73E4A311AD18AC96CB88D25F978/'.
+[2018.09.18-03.46.00:883][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.18-03.46.00:897][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.18-03.46.00:910][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.18-03.46.00:923][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.18-03.46.00:938][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.18-03.46.00:952][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.18-03.46.00:965][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.18-03.46.00:979][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.18-03.46.00:984][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:069][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.18-03.46.01:070][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.18-03.46.01:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-03.46.01:131][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.18-03.46.01:156][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-03.46.01:156][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.18-03.46.01:168][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.18-03.46.01:182][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.18-03.46.01:196][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.18-03.46.01:210][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.18-03.46.01:219][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.18-03.46.01:219][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.18-03.46.01:265][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.18-03.46.01:265][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.18-03.46.01:265][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.18-03.46.02:008][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.18-03.46.02:061][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-03.46.02:061][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.18-03.46.02:061][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GameDev/_Projects/UE4Group/ASH_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.18-03.46.02:061][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.18-03.46.02:061][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GameDev/_Projects/UE4Group/ASH_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.18-03.46.02:061][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.18-03.46.02:075][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.18-03.46.02:088][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.18-03.46.02:088][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.18-03.46.02:088][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.18-03.46.02:107][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.18-03.46.02:109][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.18-03.46.02:110][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.18-03.46.02:192][  0]LogAssetRegistry: FAssetRegistry took 0.0263 seconds to start up
+[2018.09.18-03.46.02:521][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.18-03.46.02:653][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.18-03.46.02:656][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.18-03.46.02:656][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.18-03.46.02:656][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.18-03.46.02:656][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.18-03.46.02:676][  0]LogNetVersion: ASH_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1471675654)
+[2018.09.18-03.46.03:231][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.134657 seconds
+[2018.09.18-03.46.03:238][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.18-03.46.03:238][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.09.18-03.46.03:238][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.18-03.46.04:188][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.18-03.46.04:201][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.18-03.46.04:343][  0]SourceControl: Source control is disabled
+[2018.09.18-03.46.04:343][  0]SourceControl: Source control is disabled
+[2018.09.18-03.46.04:345][  0]SourceControl: Source control is disabled
+[2018.09.18-03.46.04:345][  0]SourceControl: Source control is disabled
+[2018.09.18-03.46.04:506][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.18-03.46.04:643][  0]LogOcInput: OculusInput pre-init called
+[2018.09.18-03.46.04:703][  0]LogEngine: Initializing Engine...
+[2018.09.18-03.46.04:704][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.18-03.46.04:705][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-03.46.04:705][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-03.46.04:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-03.46.04:706][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-03.46.04:937][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.18-03.46.04:945][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.18-03.46.04:975][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-03.46.05:445][  0]LogInit: FAudioDevice initialized.
+[2018.09.18-03.46.05:446][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.18-03.46.05:531][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/Dylan Bruton/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.18-03.46.05:545][  0]LogInit: Texture streaming: Enabled
+[2018.09.18-03.46.05:557][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.18-03.46.05:569][  0]LogInit: Transaction tracking system initialized
+[2018.09.18-03.46.05:585][  0]BlueprintLog: New page: Editor Load
+[2018.09.18-03.46.05:644][  0]LocalizationService: Localization service is disabled
+[2018.09.18-03.46.05:912][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.18-03.46.05:912][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.18-03.46.05:912][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.18-03.46.05:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.18-03.46.05:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.18-03.46.05:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.18-03.46.05:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.18-03.46.05:970][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Content/' took 0.02s
+[2018.09.18-03.46.06:021][  0]SourceControl: Source control is disabled
+[2018.09.18-03.46.06:022][  0]Cmd: MAP LOAD FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Maps/TopDownExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-03.46.06:022][  0]LogEditorServer: Warning: Can't find file '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Maps/TopDownExampleMap.umap'
+[2018.09.18-03.46.06:022][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-03.46.06:079][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 57.418ms to complete.
+[2018.09.18-03.46.06:079][  0]LogFileHelpers: Loading map 'TopDownExampleMap' took 0.058
+[2018.09.18-03.46.06:194][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-03.46.06:201][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-03.46.06:208][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-03.46.06:217][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-03.46.06:225][  0]LogCollectionManager: Loaded 0 collections in 0.001281 seconds
+[2018.09.18-03.46.06:269][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Saved/Collections/' took 0.01s
+[2018.09.18-03.46.06:269][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Content/Developers/DylanBruton/Collections/' took 0.01s
+[2018.09.18-03.46.06:269][  0]LogFileCache: Scanning file cache for directory 'D:/GameDev/_Projects/UE4Group/ASH_Game/Content/Collections/' took 0.01s
+[2018.09.18-03.46.06:269][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.18-03.46.06:281][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2572 classes and 603 folders.
+[2018.09.18-03.46.06:287][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.18-03.46.06:651][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.09.18-03.46.06:667][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.18-03.46.06:686][  0]LogSlate: Took 0.000261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.18-03.46.06:689][  0]LogSlate: Took 0.000303 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.18-03.46.06:702][  0]LogSlate: Took 0.004957 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.18-03.46.06:783][  0]LogRenderer: Reallocating scene render targets to support 1072x496 Format 10 NumSamples 1 (Frame:1).
+[2018.09.18-03.46.06:910][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.18-03.46.06:910][  0]LogLoad: (Engine Initialization) Total time: 9.50 seconds
+[2018.09.18-03.46.06:910][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.18-03.46.06:929][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.18-03.46.06:951][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.18-03.46.07:024][  1]LogAssetRegistry: Asset discovery search completed in 4.8556 seconds
+[2018.09.18-03.46.07:026][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.18-03.46.07:026][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000052 seconds (updated 0 objects)
+[2018.09.18-04.33.11:981][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.18-04.33.18:907][ 68]LogSlate: Took 0.000344 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.18-04.33.19:302][ 68]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2018.09.18-04.33.19:302][ 68]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.09.18-04.33.19:302][ 68]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.09.18-04.33.19:302][ 68]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.09.18-04.33.19:370][ 68]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [2841.97] Compile of Ue4ASP_Character successful, but with 4 Warning(s) [in 134 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2018.09.18-04.33.20:060][ 68]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-04.33.20:086][ 68]LogAssetEditorManager: Opening Asset editor for World /Game/TopDownBP/Maps/ControllerTest.ControllerTest
+[2018.09.18-04.33.20:116][ 68]Cmd: MAP LOAD FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Maps/ControllerTest.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.09.18-04.33.20:116][ 68]LightingResults: New page: Lighting Build
+[2018.09.18-04.33.20:118][ 68]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2018.09.18-04.33.20:118][ 68]LoadErrors: New page: Loading map: ControllerTest.umap
+[2018.09.18-04.33.20:119][ 68]MapCheck: New page: Map Check
+[2018.09.18-04.33.20:119][ 68]LightingResults: New page: Lighting Build
+[2018.09.18-04.33.20:160][ 68]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.18-04.33.20:209][ 68]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.18-04.33.20:296][ 68]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.756ms to complete.
+[2018.09.18-04.33.20:298][ 68]LogFileHelpers: Loading map 'ControllerTest' took 0.183
+[2018.09.18-04.33.22:908][218]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-04.33.22:925][218]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.33.22:925][218]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-04.33.22:938][218]PIE: New page: PIE session: ControllerTest (Sep 17, 2018, 8:33:22 PM)
+[2018.09.18-04.33.22:938][218]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.18-04.33.22:960][218]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021470s)
+[2018.09.18-04.33.22:960][218]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-04.33.22:961][218]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2018.09.18-04.33.22:961][218]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.022640s)
+[2018.09.18-04.33.23:009][218]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-04.33.23:077][218]LogInit: FAudioDevice initialized.
+[2018.09.18-04.33.23:092][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-04.33.23:183][218]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-04.33.23:187][218]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.18-00.33.23
+[2018.09.18-04.33.23:188][218]LogWorld: Bringing up level for play took: 0.003470
+[2018.09.18-04.33.23:204][218]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2018.09.18-04.33.23:211][218]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest 1.212
+[2018.09.18-04.33.23:212][218]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.33.35:172][932]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.33.35:172][932]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-04.33.35:188][932]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-04.33.35:224][932]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-04.33.35:224][932]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.33.35:281][934]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2018.09.18-04.34.26:884][ 26]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/FPWeapon/GunFP_BP.GunFP_BP
+[2018.09.18-04.34.27:394][ 26]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.09.18-04.34.28:250][ 26]LogSlate: Took 0.000280 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.09.18-04.34.28:392][ 27]LogSlate: Took 0.000394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.09.18-04.35.18:029][858]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter
+[2018.09.18-04.39.25:782][472]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TopDownBP/Blueprints/TopDownController.TopDownController
+[2018.09.18-04.40.49:809][560]LogSlate: Took 0.000360 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.09.18-04.40.59:257][855]BlueprintLog: New page: Compile TopDownCharacter
+[2018.09.18-04.40.59:710][855]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_26.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.40.59:714][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_17.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.40.59:720][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_17.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.40.59:795][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_23.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.40.59:801][855]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_21.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.40.59:810][855]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_30.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.41.05:039][130]BlueprintLog: New page: Compile TopDownCharacter
+[2018.09.18-04.41.05:422][130]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_40.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.41.05:430][130]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_31.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.41.05:434][130]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_33.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.41.05:506][130]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.41.05:515][130]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_35.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.41.05:520][130]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_44.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.08:514][879]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.08:519][879]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_39.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.08:528][879]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_48.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.41:118][122]BlueprintLog: New page: Compile GunFP_BP
+[2018.09.18-04.43.41:345][122]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_50.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.41:352][122]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_41.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.41:355][122]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_45.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.41:373][122]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_52.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.41:379][122]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_43.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.41:383][122]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_47.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.43.52:441][678]BlueprintLog: New page: Compile TopDownController
+[2018.09.18-04.45.48:472][403]BlueprintLog: New page: Compile TopDownController
+[2018.09.18-04.49.03:082][836]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/ControllerTest_Auto195B25CA341131AECDAEF6A87521A3B9A.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/ControllerTest_Auto1.umap'
+[2018.09.18-04.49.03:090][836]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/ControllerTest' took 0.336
+[2018.09.18-04.49.03:090][836]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.336
+[2018.09.18-04.49.03:093][836]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.09.18-04.49.03:109][836]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.09.18-04.49.03:109][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.09.18-04.49.03:327][836]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownCharacter_Auto1DBBE47B94B4FBF27005C03BE1FEABE5E.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto1.uasset'
+[2018.09.18-04.49.03:336][836]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FPWeapon/GunFP_BP] ([1] browsable assets)...
+[2018.09.18-04.49.03:348][836]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FPWeapon/GunFP_BP.GunFP_BP]
+[2018.09.18-04.49.03:348][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/FPWeapon/GunFP_BP]
+[2018.09.18-04.49.03:348][836]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/GunFP_BP" FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/FPWeapon/GunFP_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.09.18-04.49.03:414][836]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/GunFP_BP_Auto16D1FD8604AEBF6BBA5756C86737ED748.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/FPWeapon/GunFP_BP_Auto1.uasset'
+[2018.09.18-04.49.03:416][836]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.18-04.49.03:416][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.18-04.49.03:485][836]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownController_Auto12ACB943441795777BB68639EC0EBBAA0.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto1.uasset'
+[2018.09.18-04.49.03:487][836]LogFileHelpers: Auto-saving content packages took 0.396
+[2018.09.18-04.49.38:858][957]BlueprintLog: New page: Compile TopDownController
+[2018.09.18-04.49.42:997][187]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-04.49.43:071][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.49.43:072][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-04.49.43:072][187]PIE: New page: PIE session: ControllerTest (Sep 17, 2018, 8:49:43 PM)
+[2018.09.18-04.49.43:072][187]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.18-04.49.43:086][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015102s)
+[2018.09.18-04.49.43:087][187]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-04.49.43:087][187]LogPlayLevel: PIE: World Init took: (0.001085s)
+[2018.09.18-04.49.43:087][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.016374s)
+[2018.09.18-04.49.43:144][187]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-04.49.43:224][187]LogInit: FAudioDevice initialized.
+[2018.09.18-04.49.43:233][187]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-04.49.43:312][187]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-04.49.43:315][187]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.18-00.49.43
+[2018.09.18-04.49.43:315][187]LogWorld: Bringing up level for play took: 0.003119
+[2018.09.18-04.49.43:336][187]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest -0.663
+[2018.09.18-04.49.43:337][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.49.48:682][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.49.48:682][504]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-04.49.48:700][504]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-04.49.48:746][504]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-04.49.48:746][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.49.48:809][505]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2018.09.18-04.49.54:566][849]BlueprintLog: New page: Compile TopDownController
+[2018.09.18-04.49.57:695][ 14]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-04.49.57:716][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.49.57:716][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-04.49.57:716][ 14]PIE: New page: PIE session: ControllerTest (Sep 17, 2018, 8:49:57 PM)
+[2018.09.18-04.49.57:716][ 14]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.18-04.49.57:732][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015594s)
+[2018.09.18-04.49.57:732][ 14]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-04.49.57:733][ 14]LogPlayLevel: PIE: World Init took: (0.001043s)
+[2018.09.18-04.49.57:733][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.016837s)
+[2018.09.18-04.49.57:791][ 14]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-04.49.57:859][ 14]LogInit: FAudioDevice initialized.
+[2018.09.18-04.49.57:872][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-04.49.57:959][ 14]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-04.49.57:962][ 14]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.18-00.49.57
+[2018.09.18-04.49.57:962][ 14]LogWorld: Bringing up level for play took: 0.002730
+[2018.09.18-04.49.57:982][ 14]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest -0.018
+[2018.09.18-04.49.57:982][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.50.06:287][509]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.50.06:287][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-04.50.06:304][509]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-04.50.06:347][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-04.50.06:348][509]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-04.50.06:410][510]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2018.09.18-04.50.08:673][645]LogEditorTransaction: Undo Edit Can Move
+[2018.09.18-04.50.08:892][654]LogEditorTransaction: Undo Move Node
+[2018.09.18-04.50.09:097][662]LogEditorTransaction: Undo Create Pin Link
+[2018.09.18-04.50.09:470][680]LogEditorTransaction: Undo Break Pin Link
+[2018.09.18-04.50.09:722][691]LogEditorTransaction: Undo Create Pin Link
+[2018.09.18-04.50.10:162][713]LogEditorTransaction: Undo Create Pin Link
+[2018.09.18-04.50.10:595][735]LogEditorTransaction: Undo Break Pin Link
+[2018.09.18-04.50.11:281][772]LogEditorTransaction: Undo Move Node
+[2018.09.18-04.50.11:731][795]LogEditorTransaction: Undo Add Node
+[2018.09.18-04.50.12:229][821]LogEditorTransaction: Undo Create Pin Link
+[2018.09.18-04.50.12:615][840]LogEditorTransaction: Undo Create Pin Link
+[2018.09.18-04.50.12:830][849]LogEditorTransaction: Undo Move Node
+[2018.09.18-04.50.13:063][859]LogEditorTransaction: Undo Delete current selection
+[2018.09.18-04.50.13:765][897]LogEditorTransaction: Undo Add Node
+[2018.09.18-04.55.51:483][583]BlueprintLog: New page: Compile TopDownController
+[2018.09.18-04.56.31:429][411]BlueprintLog: New page: Compile TopDownController
+[2018.09.18-04.56.47:809][891]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.09.18-04.56.48:283][891]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownCharacter213B97574EA9998843A6C980421531BF.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.09.18-04.57.54:794][ 67]LogEditorTransaction: Undo Delete current selection
+[2018.09.18-04.59.18:341][514]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/ControllerTest_Auto22D27A7B442B9E9502E93A7942B8D52F0.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/ControllerTest_Auto2.umap'
+[2018.09.18-04.59.18:346][514]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/ControllerTest' took 0.312
+[2018.09.18-04.59.18:346][514]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.312
+[2018.09.18-04.59.18:349][514]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownCharacter] ([1] browsable assets)...
+[2018.09.18-04.59.18:362][514]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/TopDownBP/Blueprints/TopDownCharacter.TopDownCharacter]
+[2018.09.18-04.59.18:362][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownCharacter]
+[2018.09.18-04.59.18:601][514]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownCharacter_Auto21CFAF6964875230DFFDCB8AC24D8F8FE.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownCharacter_Auto2.uasset'
+[2018.09.18-04.59.18:658][514]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/TopDownBP/Blueprints/TopDownController] ([1] browsable assets)...
+[2018.09.18-04.59.18:658][514]OBJ SavePackage: Finished generating thumbnails for package [/Game/TopDownBP/Blueprints/TopDownController]
+[2018.09.18-04.59.18:733][514]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownController_Auto2A19B40304CA962711AE2CEB321424FD8.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Blueprints/TopDownController_Auto2.uasset'
+[2018.09.18-04.59.18:734][514]LogFileHelpers: Auto-saving content packages took 0.387
+[2018.09.18-04.59.40:605][580]BlueprintLog: New page: Compile TopDownCharacter
+[2018.09.18-04.59.40:995][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_53.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.59.41:001][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_49.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.59.41:009][580]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_58.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.59.41:081][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_53.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.59.41:092][580]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_62.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-04.59.41:096][580]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_59.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.02.59:924][458]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Event Tick  and was replaced as a Custom Event!
+[2018.09.18-05.02.59:924][458]LogLinker: Can't find file '/Game/TopDownCharacter'
+[2018.09.18-05.02.59:924][458]LogLinker: Can't find file '/Game/TopDownCharacter'
+[2018.09.18-05.03.23:138][799]BlueprintLog: New page: Compile TopDownCharacter
+[2018.09.18-05.03.23:582][799]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_74.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.23:590][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_65.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.23:594][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_71.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.23:675][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_77.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.23:682][799]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_78.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.23:691][799]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_69.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.38:764][682]BlueprintLog: New page: Compile TopDownCharacter
+[2018.09.18-05.03.39:196][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_83.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.39:202][682]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_84.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.39:209][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_75.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.39:299][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_79.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.39:308][682]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_88.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.39:312][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_89.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.03.40:738][745]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-05.03.40:805][745]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-05.03.40:806][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-05.03.40:806][745]PIE: New page: PIE session: ControllerTest (Sep 17, 2018, 9:03:40 PM)
+[2018.09.18-05.03.40:806][745]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.18-05.03.40:821][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015023s)
+[2018.09.18-05.03.40:822][745]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-05.03.40:822][745]LogPlayLevel: PIE: World Init took: (0.000888s)
+[2018.09.18-05.03.40:822][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.016069s)
+[2018.09.18-05.03.40:920][745]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-05.03.40:987][745]LogInit: FAudioDevice initialized.
+[2018.09.18-05.03.40:998][745]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.03.41:075][745]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-05.03.41:078][745]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.18-01.03.41
+[2018.09.18-05.03.41:078][745]LogWorld: Bringing up level for play took: 0.002696
+[2018.09.18-05.03.41:096][745]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest 1.096
+[2018.09.18-05.03.41:096][745]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-05.03.45:562][969]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-05.03.45:562][969]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-05.03.45:580][969]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-05.03.45:662][969]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-05.03.45:663][969]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-05.03.46:016][970]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2018.09.18-05.05.12:814][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FPWeapon/GunFP_BP" FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/FPWeapon/GunFP_BP.uasset" SILENT=true
+[2018.09.18-05.05.13:155][167]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/GunFP_BPC6F18FF641681AFF5924EE91BC66C111.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/FPWeapon/GunFP_BP.uasset'
+[2018.09.18-05.06.25:123][484]BlueprintLog: New page: Compile GunFP_BP
+[2018.09.18-05.06.25:369][484]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_92.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.06.25:375][484]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_83.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.06.25:379][484]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.06.25:397][484]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_94.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.06.25:402][484]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_85.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.06.25:406][484]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_95.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.06.27:856][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.09.18-05.06.28:109][625]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownCharacterD802737D48150DBF61FEE89E77E66E1E.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.09.18-05.08.43:877][769]BlueprintLog: New page: Compile TopDownCharacter
+[2018.09.18-05.08.44:341][769]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_98.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.08.44:347][769]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_89.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.08.44:351][769]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_99.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.08.44:438][769]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_102.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.08.44:442][769]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_105.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.08.44:451][769]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_93.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-05.09.01:258][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownController" FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownController.uasset" SILENT=true
+[2018.09.18-05.09.01:321][189]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownController71FC8A1F469B160EB86CABA464C3C8AD.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownController.uasset'
+[2018.09.18-05.09.30:211][900]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/ControllerTest_Auto3ACA93935435FDD1DC7ED7EB63467A4C2.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/ControllerTest_Auto3.umap'
+[2018.09.18-05.09.30:216][900]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/ControllerTest' took 0.332
+[2018.09.18-05.09.30:216][900]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.332
+[2018.09.18-05.11.45:952][ 16]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2018.09.18-07.54.29:154][482]BlueprintLog: New page: Compile TopDownCharacter
+[2018.09.18-07.54.29:615][482]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_108.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-07.54.29:624][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_99.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-07.54.29:628][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_111.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-07.54.29:722][482]LogActorComponent: RegisterComponentWithWorld: (/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_112.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-07.54.29:726][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_0:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_117.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-07.54.29:733][482]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_7:PersistentLevel.DESTROYED_GunFP_BP_C_CHILDACTOR_103.DefaultSceneRoot) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.09.18-07.54.30:476][507]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-07.54.30:544][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.54.30:544][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-07.54.30:544][507]PIE: New page: PIE session: ControllerTest (Sep 17, 2018, 11:54:30 PM)
+[2018.09.18-07.54.30:544][507]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.18-07.54.30:559][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014888s)
+[2018.09.18-07.54.30:560][507]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-07.54.30:561][507]LogPlayLevel: PIE: World Init took: (0.001543s)
+[2018.09.18-07.54.30:561][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.016698s)
+[2018.09.18-07.54.30:636][507]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-07.54.30:706][507]LogInit: FAudioDevice initialized.
+[2018.09.18-07.54.30:717][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.54.30:793][507]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-07.54.30:798][507]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.18-03.54.30
+[2018.09.18-07.54.30:799][507]LogWorld: Bringing up level for play took: 0.004339
+[2018.09.18-07.54.30:819][507]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest 0.83
+[2018.09.18-07.54.30:819][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.54.38:135][841]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.54.38:135][841]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.54.38:155][841]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-07.54.38:242][841]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-07.54.38:243][841]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.54.38:581][842]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2018.09.18-07.55.37:377][331]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-07.55.37:395][331]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.55.37:395][331]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-07.55.37:395][331]PIE: New page: PIE session: ControllerTest (Sep 17, 2018, 11:55:37 PM)
+[2018.09.18-07.55.37:395][331]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.18-07.55.37:409][331]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013902s)
+[2018.09.18-07.55.37:410][331]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-07.55.37:411][331]LogPlayLevel: PIE: World Init took: (0.001331s)
+[2018.09.18-07.55.37:411][331]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.015435s)
+[2018.09.18-07.55.37:476][331]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-07.55.37:539][331]LogInit: FAudioDevice initialized.
+[2018.09.18-07.55.37:549][331]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.55.37:642][331]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-07.55.37:645][331]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.18-03.55.37
+[2018.09.18-07.55.37:646][331]LogWorld: Bringing up level for play took: 0.002744
+[2018.09.18-07.55.37:677][331]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest -0.312
+[2018.09.18-07.55.37:677][331]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.55.40:785][511]LogBlueprintUserMessages: [TopDownCharacter] 75.0
+[2018.09.18-07.55.41:599][560]LogBlueprintUserMessages: [TopDownCharacter] 50.0
+[2018.09.18-07.55.41:932][580]LogBlueprintUserMessages: [TopDownCharacter] 25.0
+[2018.09.18-07.55.42:132][592]LogBlueprintUserMessages: [TopDownCharacter] 0.0
+[2018.09.18-07.55.45:052][767]LogBlueprintUserMessages: [TopDownCharacter] -25.0
+[2018.09.18-07.55.46:202][836]LogBlueprintUserMessages: [TopDownCharacter] -50.0
+[2018.09.18-07.55.47:204][896]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.55.47:204][896]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.55.47:222][896]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-07.55.47:307][896]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-07.55.47:307][896]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.55.47:692][897]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2018.09.18-07.56.18:608][723]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.09.18-07.56.18:627][723]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.56.18:627][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.09.18-07.56.18:627][723]PIE: New page: PIE session: ControllerTest (Sep 17, 2018, 11:56:18 PM)
+[2018.09.18-07.56.18:628][723]LogPlayLevel: Creating play world package: /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest
+[2018.09.18-07.56.18:643][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015459s)
+[2018.09.18-07.56.18:644][723]LogAIModule: Creating AISystem for world ControllerTest
+[2018.09.18-07.56.18:645][723]LogPlayLevel: PIE: World Init took: (0.001329s)
+[2018.09.18-07.56.18:645][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDownBP/Maps/ControllerTest.ControllerTest to /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest (0.017028s)
+[2018.09.18-07.56.18:705][723]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2018.09.18-07.56.18:769][723]LogInit: FAudioDevice initialized.
+[2018.09.18-07.56.18:780][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.56.18:879][723]LogLoad: Game class is 'TopDownGameMode_C'
+[2018.09.18-07.56.18:882][723]LogWorld: Bringing World /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest.ControllerTest up for play (max tick rate 60) at 2018.09.18-03.56.18
+[2018.09.18-07.56.18:883][723]LogWorld: Bringing up level for play took: 0.003191
+[2018.09.18-07.56.18:913][723]PIE: Play in editor start time for /Game/TopDownBP/Maps/UEDPIE_0_ControllerTest 0.924
+[2018.09.18-07.56.18:914][723]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.56.20:215][797]LogBlueprintUserMessages: [TopDownCharacter] YOU WON!!!
+[2018.09.18-07.56.21:167][854]LogBlueprintUserMessages: [TopDownCharacter] YOU WON!!!
+[2018.09.18-07.56.21:566][878]LogBlueprintUserMessages: [TopDownCharacter] YOU WON!!!
+[2018.09.18-07.56.21:749][889]LogBlueprintUserMessages: [TopDownCharacter] YOU WON!!!
+[2018.09.18-07.56.21:917][899]LogBlueprintUserMessages: [TopDownCharacter] YOU WON!!!
+[2018.09.18-07.56.22:083][909]LogBlueprintUserMessages: [TopDownCharacter] YOU WON!!!
+[2018.09.18-07.56.22:933][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.56.22:934][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.18-07.56.22:952][957]LogSlate: Window 'ASH_Game Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.09.18-07.56.23:041][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2018.09.18-07.56.23:041][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel' has LevelScriptBlueprint '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest' with GeneratedClass '/Game/TopDownBP/Maps/ControllerTest.ControllerTest_C' with ClassGeneratedBy '/Game/TopDownBP/Maps/ControllerTest.ControllerTest:PersistentLevel.ControllerTest'
+[2018.09.18-07.56.23:379][958]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2018.09.18-07.56.27:260][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TopDownBP/Blueprints/TopDownCharacter" FILE="../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset" SILENT=true
+[2018.09.18-07.56.27:528][186]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/TopDownCharacterBE01E0E443E6B07BD8A2F1BA1C971AD6.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Content/TopDownBP/Blueprints/TopDownCharacter.uasset'
+[2018.09.18-07.57.03:651][333]LogSavePackage: Moving '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/ControllerTest_Auto4A1C918734A4684AD1AAD0FA420534667.tmp' to '../../../../../GameDev/_Projects/UE4Group/ASH_Game/Saved/Autosaves/Game/TopDownBP/Maps/ControllerTest_Auto4.umap'
+[2018.09.18-07.57.03:657][333]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TopDownBP/Maps/ControllerTest' took 0.283
+[2018.09.18-07.57.03:657][333]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
+[2018.09.18-07.59.27:898][945]LogSlate: Window 'TopDownController' being destroyed
+[2018.09.18-07.59.27:902][945]LogSlate: Window 'TopDownController' being destroyed
+[2018.09.18-07.59.28:306][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.09.18-07.59.28:471][945]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
